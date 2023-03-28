@@ -1,0 +1,79 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: 222;
+  font-family: "Open Sans", sans-serif;
+  background: #222;
+  background-image: url("https://source.unsplash.com/1600x900/?nature,water");
+  background-size: cover;
+}
+
+.card {
+  background: #000000d0;
+  color: white;
+  padding: 2em;
+  width: 100%;
+  border-radius: 30px;
+  max-width: 420px;
+  margin: 1em;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button {
+    margin: 0.5em;
+    border-raduis: 50%;
+    border: none;
+    height: 2.5em;
+    border-radius: 50%;
+    width: 2.5em;
+    cursor: pointer;
+}
+
+input.search.bar {
+    border: none;
+    outline: none;
+    padding: 1em;
+    border-radius: 18px;
+    background: #7c7c7c2b;
+    color: white;
+    font-family: inherit;
+    font-size: 120%;
+}
+
+input.search.bar {}
+
+button {
+    button: hover;
+    button: hover;
+}
+
+.div-1{
+  background-color: gray;
+  border-radius: 10px;
+  white-space: 10px;
+}
+
+.buttonStyle  {
+  border: 2px inset lightblue;
+  border-radius: 10px;
+
+}
+#listDiv{
+  background-color: lightgray;
+  border-radius: 10px;
+  color: black;
+  word-spacing: 10px;
+}
+
+#list{display: grid;
+white-space: 100px;
+word-spacing: 20px;
+
+}
